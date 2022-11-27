@@ -1,0 +1,360 @@
+body
+{
+background-color: #363636;
+
+}
+
+.header
+{
+  background-image: url("banner.png" );
+  margin-top: -0px;
+  box-shadow: 0 2px 1px white;
+}
+
+  .divH
+  {
+    max-height: 80px;
+    width: 100%
+  }
+
+  .logo
+  {
+    width: 9%;
+    height: 75%;
+    transform: translate(0%,-5%);
+  }
+
+.div
+{
+  margin-top: 2px;
+  background-color: black;
+  min-height: 90px;
+  max-height: 50px;
+  box-shadow: 0 15px 5px #1C1C1C;
+}
+
+  .Llupin
+  {
+    width: 70px;
+    transform: translate(160%,11%);
+  }
+
+  .letras
+  {
+    width: 150px;
+    transform: translate(60%,-7%);
+  }
+
+  .container
+  {
+    width: 19%;
+    height: 30%
+    max-width: 255px;
+    display: flex;
+    transform: translate(400%,-115%);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-bar
+  {
+    width: 100%;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+  }
+
+  .search-bar input
+  {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0px 5px;
+    font-size: 17px;
+    color: #cac7ff;
+  }
+
+  ::placeholder
+  {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  .search-bar img
+  {
+    border: 0;
+    border-radius: 30%;
+    width: 24px;
+    height: 24px;
+    background: #58629b;
+    cursor: pointer;
+  }
+
+  .search-bar button
+  {
+    width: 100px;
+    height: 35px;
+    background: #58629b;
+    border: 0;
+    border-radius: 120px;
+    margin-top: -3px;
+  }
+
+.burguer
+{
+  width:30px;
+  transform: translate(45%,45%);
+
+
+}
+
+  .inputC
+  {
+    display: none;
+    transform: translate(50%,-410%);
+  }
+
+  label
+  {
+
+    padding: 15px;
+    position: absolute;
+    transform: translate(110%,-260%);
+    z-index: 1;
+
+  }
+
+  nav
+  {
+    top: 170px;
+    background-color: black;
+    width: 300px;
+    min-height: 500px;
+    left: -350px;
+    position:absolute;
+    z-index: 1;
+    border-radius: 15px;
+
+  }
+
+  .inputC:checked ~ nav
+  {
+    transform: translateX(350px);
+  }
+
+  .ul
+  {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+  }
+
+  .fLupin
+  {
+    display: block;
+    padding: 15px 5px;
+    transform: translate(20%,-0%);
+
+
+  }
+
+  label:hover
+  {
+    cursor: pointer;
+  }
+
+  .fLupin:hover
+  {
+    cursor: pointer;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  .divseta
+  {
+    max-width: 70px;
+    max-width: 70px;
+    transform: translate(60%,30%);
+
+  }
+
+  .left
+  {
+    width: 70px;
+    transform: translate(0%,0%);
+  }
+
+  .left:hover
+  {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+.divM
+{
+    position: absolute;
+    min-height: 600px;
+    min-width: 90%;
+    transform: translate(0%,10%);
+
+}
+
+.divM li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM ul
+{
+  transform: translate(2%,10%);
+}
+
+.Mimg1
+{
+  border: 3px solid yellow;
+  border-radius: 30px;
+
+}
+
+.Mimg1:hover
+{
+  webkit-transform: scale(1.1);
+  ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.divM1
+{
+  min-height: 1000px;
+}
+
+.divM1 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM1 ul
+{
+  transform: translate(2%,150%);
+}
+
+.divM2
+{
+  min-height: 500px;
+}
+
+.divM2 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM2 ul
+{
+  transform: translate(2%,20%);
+}
+
+.divM3
+{
+  min-height: 500px;
+}
+
+.divM3 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM3 ul
+{
+  transform: translate(2%,15%);
+}
+
+
+.divM4
+{
+  min-height: 500px;
+}
+
+.divM4 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM4 ul
+{
+  transform: translate(2%,10%);
+}
+
+.divM5
+{
+  min-height: 500px;
+}
+
+.divM5 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM5 ul
+{
+  transform: translate(2%,5%);
+}
+
+.divM6
+{
+  min-height: 500px;
+}
+
+.divM6 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM6 ul
+{
+  transform: translate(2%,0%);
+}
+
+.divM7
+{
+  min-height: 400px;
+}
+
+.divM7 li
+{
+  display: inline;
+  padding: 30px;
+}
+
+.divM7 ul
+{
+  transform: translate(2%,-5%);
+}
+
+.footer
+{
+  margin-top: 70px;
+  background-image: url("footer.jpg");
+  width: 1343px;
+  height: 250px;
+}
+
+.logoF
+{
+  width: 10%;
+  position: relative;
+  transform: translate(430%,20%);
+}
